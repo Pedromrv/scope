@@ -134,7 +134,8 @@ if (amount > bank_balance) {
 }
 
     // You can't afford this purchase. :(
-    ```
+    
+```
 
 ## Review
 
