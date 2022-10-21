@@ -103,7 +103,7 @@ function formatAmount(amount) {
 	return "$" + amount.toFixed( 2 );
 }
 
-// keep buying phones while you still have money
+// sigue comprando moviles mientras tengas dinero
 
 while (amount < bank_balance) { 
 	// buy a new phone!  
@@ -115,16 +115,15 @@ while (amount < bank_balance) {
 	}
 }
 
-// don't forget to pay the government, too
+// no olvides pagar al gobierno
 amount = amount + calculateTax( amount );
 
 console.log(
         "Your purchase: " + formatAmount( amount )
 
 );
-// Your purchase: $334.76
-
-// can you actually afford this purchase?
+// tu compra: 334,76$
+// ¿Puedes permitirte esta compra?
 
 if (amount > bank_balance) { 
 	console.log(
@@ -133,7 +132,7 @@ if (amount > bank_balance) {
 	); 
 }
 
-    // You can't afford this purchase. :(
+    // No te puedes permitir esta compra
     
 ```
 
